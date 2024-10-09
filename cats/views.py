@@ -7,6 +7,10 @@ from .serializers import AchievementSerializer, CatSerializer
 
 
 class CatViewSet(viewsets.ModelViewSet):
+    """Описание про Котиков
+    Пуляем: ыкермукеоккуиокеин
+    Получаем: вакеримвкаржлвакжмрвкжщершмвыкжермокуыепо
+    """
     queryset = Cat.objects.all()
     serializer_class = CatSerializer
     pagination_class = PageNumberPagination 
